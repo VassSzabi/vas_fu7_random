@@ -9,7 +9,7 @@ Ez a csomag a ROS 2 beadandóhoz készült. Egy C++ Publisher node-ot tartalmaz.
 * **Leírás:** A node másodpercenként publikál egy beégetett string üzenetet a `topic` nevű csatornára.
 
 ## A build menete
-A csomag lefordítása a munkakönyvtárból a colcon segítségével történik:
+A csomag lefordítása a munkakönyvtárból a colcon segítségével történik: 
 bash
 cd ~/ros2_ws
 colcon build --packages-select vas_fu7_random
